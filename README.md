@@ -16,11 +16,11 @@ Prototype implementations for parsing HL7 V2.x messages.
 ---
 ## Implementations
 
-| Type          | Implementation Class                                                             | Documentation                     |
-|---------------|----------------------------------------------------------------------------------|-----------------------------------|
-| Java UDTF     | [HL7UDTF](./src/main/java/com/snowflake/labs/hl7/HL7UDTF.java)                   | [Doc](doc/hl7/HL7UDTF.md)         |
-| Java UDF      | [HL7UDF](./src/main/java/com/snowflake/labs/hl7/HL7UDF.java)                     | [Doc](doc/hl7/HL7UDF.md)          |
-| Python UDF    | [hl7pyparserUDF](./src/main/python/hl7pyparserUDF.py)                            | [Doc](doc/hl7/HL7PYParserUDF.md)  |
+| Type          | Implementation Class                                                             | 
+|---------------|----------------------------------------------------------------------------------|
+| Java UDTF     | [HL7UDTF](./src/main/java/com/snowflake/labs/hl7/HL7UDTF.java)                   |
+| Java UDF      | [HL7UDF](./src/main/java/com/snowflake/labs/hl7/HL7UDF.java)                     |
+| Python UDF    | [hl7pyparserUDF](./src/main/python/hl7pyparserUDF.py)                            |
 
 
 ## Detailed documentation/QuickStart for Types that are in PuPr
