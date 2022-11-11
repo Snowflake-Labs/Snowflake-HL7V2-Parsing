@@ -2,10 +2,10 @@
 
 ## Why this Demo
 ### Problem Statement
-With the support for unstructured data in Snowflake, customers no longer need to run a processing pipeline of HL7 V2.x outside Snowflake. Now customers can directly store the HL7 V2.x messages in Snowflake, process them using Java UDF's and run analytics on the fly. 
+With the support for unstructured data in Snowflake, customers no longer need to run a processing pipeline of HL7 V2.x outside Snowflake. Now customers can directly store the HL7 V2.x messages in Snowflake, process them using Java UDFs/UDTFs, Python UDFs/UDTFs and run analytics on the fly. 
 
 
-## Technical Deep-Dive
+## Technical Overview of HL7 Ingestion and Processing using Snowflake
 
 [Medium Blog](https://medium.com/snowflake/hl7-ingestion-and-processing-architectural-patterns-with-snowflake-3703b8c08ea4)
 
@@ -23,11 +23,9 @@ Prototype implementations for parsing HL7 V2.x messages.
 | Python UDF    | [hl7pyparserUDF](./src/main/python/hl7pyparserUDF.py)                            |
 
 
-## Detailed documentation/QuickStart for Types that are in PuPr
+## Detailed documentation/Quickstart guide
 [Quickstart](doc/hl7/ProcessingHL7V2MessageswithSnowflake-PuPrFeatures.md)
 
-### Installation / Deployment
-* Refer to the respective type documentation for setup, installations, sample runs etc..
 
 ### Note 
 The implementations provided here are at best MVP/Prototype versions, they are not of
