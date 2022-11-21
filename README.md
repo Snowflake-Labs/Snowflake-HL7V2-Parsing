@@ -24,7 +24,7 @@ Prototype implementations for parsing HL7 V2.x messages.
 
 
 ## Detailed documentation/Quickstart guide
-[Quickstart](doc/hl7/ProcessingHL7V2MessageswithSnowflake-PuPrFeatures.md)
+[Quickstart](https://quickstarts.snowflake.com/guide/processing_hl7_v2_messages_with_snowflake/index.html?index=..%2F..index#0)
 
 
 ### Note 
